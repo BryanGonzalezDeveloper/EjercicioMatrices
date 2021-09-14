@@ -70,9 +70,12 @@ namespace EjercicioMatrices
             // 
             this.dgvMatriz.AllowUserToAddRows = false;
             this.dgvMatriz.AllowUserToDeleteRows = false;
+            this.dgvMatriz.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCellsExceptHeader;
+            this.dgvMatriz.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.dgvMatriz.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMatriz.Location = new System.Drawing.Point(15, 94);
             this.dgvMatriz.Name = "dgvMatriz";
+            this.dgvMatriz.RowHeadersVisible = false;
             this.dgvMatriz.Size = new System.Drawing.Size(336, 161);
             this.dgvMatriz.TabIndex = 3;
             // 
